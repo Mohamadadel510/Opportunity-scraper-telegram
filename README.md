@@ -90,7 +90,10 @@ Never commit API keys to version control. Use environment variables or a secure 
 ## Contributing
 
 Feel free to submit issues and pull requests.
-
+# Future Updates:
+ - i'm planing to make this script run on a local llm since groq have a limit for the free version,
+ - it won't be super tedious on the computer to run a mildly easy task "prompt" for a model like gpt4all
+ - the features extraction on the model is still naive and has little value so i am planing on making a better features 
 ## License
 
 MIT License
