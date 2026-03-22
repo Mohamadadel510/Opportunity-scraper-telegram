@@ -9,16 +9,18 @@ from telethon import TelegramClient
 
 # ================= CONFIG =================
 import os
-
-api_id        = 34263733
-api_hash      = "a82e943b286084495d9c861a4105a943"
+//
+api_id        = "1234556" #add your telegram ID
+api_hash      = "your telegram hash"
 
 GROQ_API_KEY  = os.getenv("GROQ_API_KEY")  # Set this environment variable with your Groq API key
 NOTION_TOKEN  = os.getenv("NOTION_TOKEN")  # Set this environment variable with your Notion token
-DATABASE_ID   = "20af34c645184378a9c472018328abb0"
+DATABASE_ID   = "Notion database ID"
 
+
+#add your telegram channales here
 TARGET_CHANNELS = [
-    "شباب بتساعد شباب",
+    "channal 1",
     "Ramzy Abdelaziz - رمزي عبدالعزيز",
 ]
 
